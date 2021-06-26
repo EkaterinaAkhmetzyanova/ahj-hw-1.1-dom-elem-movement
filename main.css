@@ -1,0 +1,29 @@
+body {
+    color: #999;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.board {
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+}
+
+.cell {
+    border: 2px solid #000;
+    background-color: #999;
+    height: 100px;
+    width: 100px;
+}
+
+.goblin {
+    background-image: url(2dbd01ce16c0fa83cb67e20c73dedb66.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
